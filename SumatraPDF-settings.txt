@@ -1,0 +1,112 @@
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-5.html
+Theme = Dark
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #C7EDCC
+	SelectionColor = #256F3F
+	WindowMargin = 1 3 1 3
+	PageSpacing = 2 2
+	InvertColors = false
+	HideScrollbars = true
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 2 2
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+	[
+		CommandLine = "D:\Program Files (x86)\Foxit Software\Foxit PDF Editor\FoxitPDFEditor.exe" /A page=%p "%1"
+		Name = Foxit
+		Filter = *.pdf
+	]
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #7A5BC8
+	UnderlineColor = #36A147
+	SquigglyColor = #ff00ff
+	StrikeOutColor = #ff0000
+	FreeTextColor = #ff0000
+	FreeTextSize = 12
+	FreeTextBorderWidth = 1
+	TextIconColor = #9939AC
+	TextIconType = 
+	DefaultAuthor = Flyingd
+]
+
+RememberOpenedFiles = true
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = cn
+InverseSearchCmdLine = bowpad %f
+EnableTeXEnhancements = true
+DefaultDisplayMode = automatic
+DefaultZoom = fit content
+Shortcuts [
+	[
+		Cmd = CmdOpenFolder
+		Key = Alt + O
+	]
+	[
+		Cmd = CmdShowInFolder
+		Key = Alt + F
+	]
+	[
+		Cmd = CmdOpenWithFoxIt
+		Key = Ctrl + Alt + F
+	]
+	[
+		Cmd = CmdSearchSelectionWithBing
+		Key = Ctrl + Alt + S
+	]
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #C7EDCC
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = false
+ShowToc = true
+NoHomeTab = false
+TocDy = 0
+SidebarDx = 359
+ToolbarSize = 10
+TabWidth = 100
+TreeFontSize = 23
+TreeFontWeightOffset = 0
+TreeFontName = automatic
+SmoothScroll = true
+ShowStartPage = true
+CheckForUpdates = true
+WindowState = 2
+WindowPos = 167 368 1929 966
+UseTabs = true
+UseSysColors = false
+CustomScreenDPI = 0
+
+TimeOfLastUpdateCheck = 31065726 -2099211124
+OpenCountWeek = 668
+
+# Settings below are not recognized by the current version
